@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Great Jayshree Quiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1 align="center">How well do you know her?</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions"><strong>1. What is Jayshree's favorite color?</strong></p>
+<input type = "radio" id = "mc" name = "question1" value = "Black"> Black<br>
+<input type = "radio" id = "mc" name = "question1" value = "Blue"> Blue<br>
+<input type = "radio" id = "mc" name = "question1" value = "Purple"> Purple<br>
+<input type = "radio" id = "mc" name = "question1" value = "Red"> Red<br>
+
+<p class = "questions"><strong>2. Who is Jayshree's favorite Friends' character?</strong></p>
+<input type = "radio" id = "mc" name = "question2" value = "Ross"> Ross<br>
+<input type = "radio" id = "mc" name = "question2" value = "Rachel"> Rachel<br>
+<input type = "radio" id = "mc" name = "question2" value = "Chandler"> Chandler<br>
+<input type = "radio" id = "mc" name = "question2" value = "Monica"> Monica<br>
+<input type = "radio" id = "mc" name = "question2" value = "Joey"> Joey<br>
+<input type = "radio" id = "mc" name = "question2" value = "Phoebe"> Phoebe<br>
+
+<p class = "questions"><strong>3. Which one of these is Jayshree's favourite TV Series?</strong></p>
+<input type = "radio" id = "mc" name = "question3" value = "LOTBS"> Legend of The Blue Sea<br>
+<input type = "radio" id = "mc" name = "question3" value = "TVD"> The Vampire Diaries<br>
+<input type = "radio" id = "mc" name = "question3" value = "Friends"> Friends<br>
+<input type = "radio" id = "mc" name = "question3" value = "SHR"> Moon Lovers: Scarlet Heart Ryeo<br>
+<input type = "radio" id = "mc" name = "question3" value = "Thirteen"> 13 Reasons Why<br>
+<input type = "radio" id = "mc" name = "question3" value = "Shadowhunters"> Shadowhunters<br>
+
+
+<p class = "questions"><strong>4. What would Jayshree do if she won the lottery?</strong></p>
+<input type = "radio" id = "mc" name = "question4" value = "Clothes"> Spend it all on clothes<br>
+<input type = "radio" id = "mc" name = "question4" value = "Food"> Eat all the food she can<br>
+<input type = "radio" id = "mc" name = "question4" value = "Invest"> Invest the money wisely<br>
+<input type = "radio" id = "mc" name = "question4" value = "Phone"> Buy a new phone so she could play PUBG<br>
+
+<p class = "questions"><strong>5. Which of the following is Jayshree's dream city?</strong></p>
+<input type = "radio" id = "mc" name = "question5" value = "Shanghai"> Shanghai<br>
+<input type = "radio" id = "mc" name = "question5" value = "Paris"> Paris<br>
+<input type = "radio" id = "mc" name = "question5" value = "Amsterdam"> Amsterdam<br>
+<input type = "radio" id = "mc" name = "question5" value = "NY"> New York<br>
+
+<p class = "questions"><strong>6. Which one of these is Jayshree's favourite Bollywood movie?</strong></p>
+<input type = "radio" id = "mc" name = "question6" value = "Singham"> Singham<br>
+<input type = "radio" id = "mc" name = "question6" value = "GOW"> Gangs of Wasseypur<br>
+<input type = "radio" id = "mc" name = "question6" value = "YJHD"> Yeh Jawani Hai Deewani<br>
+<input type = "radio" id = "mc" name = "question6" value = "DCH"> Dil Chahta Hai<br>
+
+<p class = "questions"><strong>7. Who is Jayshree's favourite cricketer?</strong></p>
+<input type = "radio" id = "mc" name = "question7" value = "Sachin">Sachin Tendulkar<br>
+<input type = "radio" id = "mc" name = "question7" value = "Joe"> Joe Root<br>
+<input type = "radio" id = "mc" name = "question7" value = "Hardik"> Hardik "Hard 'Aaj Main Karke Aaya' Dick" Pandya<br>
+<input type = "radio" id = "mc" name = "question7" value = "Kohli"> Virat Kohli<br>
+<input type = "radio" id = "mc" name = "question7" value = "Dhoni"> MS Dhoni<br>
+
+<p class = "questions"><strong>8. Who does Jayshree claim is her favourite footballer?</strong></p>
+<input type = "radio" id = "mc" name = "question8" value = "Messi"> Lionel Messi<br>
+<input type = "radio" id = "mc" name = "question8" value = "Salah"> Mo Salah<br>
+<input type = "radio" id = "mc" name = "question8" value = "Ronaldo"> Cristiano Ronaldo<br>
+<input type = "radio" id = "mc" name = "question8" value = "Chhetri"> Sunil Chhetri<br>
+
+<p class = "questions"><strong>9. Which of these is Jayshree's favorite football club?</strong></p>
+<input type = "radio" id = "mc" name = "question9" value = "FCB">FC Barcelona<br>
+<input type = "radio" id = "mc" name = "question9" value = "MUFC"> Manchester United FC<br>
+<input type = "radio" id = "mc" name = "question9" value = "LFC"> Liverpool FC<br>
+<input type = "radio" id = "mc" name = "question9" value = "RM"> Real Madrid CF<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img align="center" border="2" id = "picture">
+</div>
+</html>
+
+</body>
