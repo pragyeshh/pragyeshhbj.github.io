@@ -41,7 +41,7 @@ function check(){
 	}
 	
 	var pictures = ["img/9.gif", "img/8.gif", "img/7.gif", "img/5-6.gif", "img/3-4.gif", "img/1-2.gif", "img/0.gif"];
-	var messages = ["You are Jayshree herself", "You are very close with her", "You know her pretty well", "Quiete good", "Gotta do better", "Looks like you are guessing","Who the fuck even are you?"];
+	var messages = ["You are Jayshree herself.", "You are very close with her.", "You know her pretty well.", "Quiete good.", "Gotta do better.", "Looks like you are guessing.","Who the fuck even are you?"];
 	var score;
 
 	if (correct == 0) {
